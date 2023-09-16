@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const Product = require('./Models/productModels');
-let username = encodeURIComponent("Veektaw");
-let password = encodeURIComponent("vannessa");
+let username = encodeURIComponent("");
+let password = encodeURIComponent("");
 
 app.use(express.json());
 
